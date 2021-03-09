@@ -1187,7 +1187,7 @@ class _DropdownButtonState<T> extends State<DropdownButton<T>> with WidgetsBindi
   }
 
   void _updateSelectedIndex() {
-    if (widget.value == null || widget.items == null || widget.items!.isEmpty) {
+    if (widget.items == null || widget.items!.isEmpty) {
       _selectedIndex = null;
       return;
     }
